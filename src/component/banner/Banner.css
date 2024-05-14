@@ -1,0 +1,244 @@
+.banner {
+    width: 93%;
+    background-color: var(--orange);
+    height: 100vh;
+    display: flex;
+    padding: 4rem 4rem;
+    background-image: url(../../images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ float: right;
+}
+
+
+.icons {
+    color: #fff;
+    font-size: 1.8rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.b-left{
+    width: 45%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.intro span:nth-of-type(1){
+    font-size: 2rem;
+    color: var(--white);
+}
+.intro span:nth-of-type(2){
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: bolder;
+   
+}
+.intro span span:nth-of-type(1){
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bolder;
+   
+}
+.intro span:nth-of-type(3){
+    font-size: 4rem;
+    color: var(--white);
+    /* line-height: 1.6em; */
+    /* font-weight: bold; */
+   
+    color: #fff;
+    /* height:5.3rem ; */
+    margin-bottom: 1rem;
+}
+.intro span:nth-of-type(4){
+    font-size: 1.7rem;
+    color: var(--white);
+    line-height: 1.6em;
+    color:var(--white);
+    margin-bottom: 1rem;
+}
+
+.b-button {
+    color: var(--orange);
+    /* margin-right: 1rem; */
+    font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+    background-color:var(--bgColor);
+    color: var(--white);
+}
+.b-button:hover{
+    background-color:var(--bgColor);
+    transition: all 0.5s;
+    color: var(--white);
+}
+
+
+.b-button svg{
+    color: var(--orange);
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+
+.info{
+    display: flex;
+    gap: 3rem;
+}
+
+.info div{
+   color: var(--white);
+   font-size: 1.6rem;
+}
+.info div p:nth-of-type(1){
+   font-weight: 700;
+}
+
+
+.imge1{
+    display: flex;
+    gap: 6rem;
+   
+
+
+   
+}
+
+.imge1 img{
+ 
+  width: 3rem;
+  margin-right: 2rem;
+   cursor: pointer;
+}
+
+
+/* right section of banner */
+
+.b-right{
+    width: 55%;
+    float: right;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    /* height: 100vh; */
+}
+.menuicon{
+    color: var(--white);
+    font-size: 3rem;
+    display: none;
+}
+
+
+
+
+
+
+/* menu button design */
+
+.m-button{
+    background-color: transparent;
+    color: #fff;
+    border: #fff;
+    font-size: 3rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .banner{
+       width: 100%;
+       padding: 2rem 2rem;
+       
+    }
+
+    .b-left{
+        width: 100%;
+   
+    }
+
+    .intro span:nth-of-type(2){
+        font-size: 2.5rem;
+        color: var(--white);
+        font-weight: bolder;
+       
+    }
+    .intro span span:nth-of-type(1){
+        font-size: 2.5rem;
+        color: var(--white);
+        font-weight: bolder;
+       
+    }
+    .intro span span:nth-of-type(2){
+        color: var(--white);
+        font-weight: bolder;
+       
+    }
+
+    .intro span:nth-of-type(3) {
+        font-size: 2.5rem;
+    }
+
+    /* .b-button {
+       
+        margin-top: 3.5rem;
+       
+    } */
+  
+
+
+
+    /* right section banner */
+
+    .b-right{
+       width: 1%;
+    }
+
+    .menuicon{
+      
+        display: block;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .b-button {
+        margin-top: 1rem;
+    }
+
+    .b-left{
+        width: 100%;
+    }
+.banner{
+    width: 100%;
+}
+.menuicon{
+    display: block;
+}
+}
+
+
+
+@media only screen and (max-width: 1100px){
+.banner{
+    width: 100%;
+}
+.menuicon{
+    display: block;
+}
+}
