@@ -8,6 +8,7 @@
     height: 100vh;
     float: left;
     position: fixed;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -31,6 +32,10 @@ margin-top: 12rem;
     text-transform: capitalize;
     color:var(--black);
     font-weight: 500;
+    transition: all 0.5s;
+}
+.navbar ul li a:hover{
+   color: var(--orange);
 }
 
 #active{
@@ -89,3 +94,17 @@ margin-top: 12rem;
     }
     
 }
+@media only screen and (max-width: 1160px){
+
+    .sidebar{
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1400px){
+    
+    .sidebar{
+        display: none;
+    }}

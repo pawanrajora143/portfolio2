@@ -1,0 +1,32 @@
+
+.footer{
+    width: 93%;
+    float:right;
+    height: 7vh;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+
+
+
+@media only screen and (max-width: 1400px){
+    .footer{
+        width: 100%;
+        padding: 2rem 0rem;
+     }
+}
+
+
+@media only screen and (max-width: 600px){
+    .footer{
+       
+        padding: 3rem 0rem;
+     }
+}

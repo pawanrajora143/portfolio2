@@ -18,11 +18,12 @@ const Navbar = () => {
         </div>
         <div className="navbar">
             <ul>
-                <li><a href="" id='active'>home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">project</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#home" id='active' >home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </div>
 

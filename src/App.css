@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 
@@ -19,7 +20,14 @@ html{
   --white: #ffffff;
   --black: #000000;
   --bgColor:#454545;
+  --bgColor2:#f8f9fa;
+  --textColor:#6c757d;
+  --bgColor3:#f8f9fa;
  
+}
+
+h1{
+  font-size: 4rem !important;
 }
 
 

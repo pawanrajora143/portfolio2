@@ -1,0 +1,234 @@
+
+
+.portfolio{
+    width: 93%;
+    height: auto;
+    background-color: var(--orange);
+    float: right;
+    padding: 8rem 4rem;
+
+}
+.portfolio h1{
+   color: var(--white);
+
+}
+.portfolio p{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+
+.work_filers{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 2.75rem;
+    /* margin-bottom: 1rem; */
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+
+
+.work_card{
+    background-color:var(--white);
+    border:  1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.9rem;
+    border-radius: 2rem;
+    width: 100%;
+    width: 32rem;
+    overflow: hidden;
+}
+
+.work_item{
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.work_item:hover{
+    color: var(--white);
+    background-color: var(--black);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid var(--white);
+}
+
+
+.work_container{
+    grid-template-columns: auto auto auto;
+    gap:8rem ;
+    /* justify-content: center; */
+    display: grid;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.work_img{
+    width: 28rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.5s;
+    
+
+}
+.work_img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+
+}
+
+.work_title{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.work_button{
+    font-size: 1.6rem;
+}
+
+
+.active-work{
+    background-color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px){
+    .portfolio{
+        width: 100%;
+        height: auto;
+     }
+}
+@media only screen and (max-width: 1200px){
+    .work_container{
+        grid-template-columns: auto auto ;
+        gap:8rem ;
+        justify-content: space-between;
+        display: grid;
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .work_img{
+        width: 100%;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        transition: all 0.5s;
+    }
+
+    .work_card{
+        background-color:var(--white);
+        border:  1px solid rgba(0, 0, 0, 0.1);
+        padding: 1.9rem;
+        border-radius: 2rem;
+        /* width: 100%; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+}
+@media only screen and (max-width: 768px){
+    .work_container{
+        grid-template-columns: auto auto ;
+        gap:5rem ;
+        justify-content: space-between;
+        display: grid;
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .work_img{
+        width: 100%;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        transition: all 0.5s;
+        
+    
+    }
+    .work_card{
+        background-color:var(--white);
+        border:  1px solid rgba(0, 0, 0, 0.1);
+        padding: 1.9rem;
+        border-radius: 2rem;
+        /* width: 100%; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .portfolio{
+        width: 100%;
+        height: auto;
+     }
+
+
+     .work_card{
+        background-color:var(--white);
+        border:  1px solid rgba(0, 0, 0, 0.1);
+        padding: 1.9rem;
+        border-radius: 2rem;
+        width: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .work_container{
+        grid-template-columns:  auto ;
+        gap:5rem ;
+        /* justify-content: center; */
+        display: grid;
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    
+    .work_img{
+        width: 100%;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+        transition: all 0.5s;
+        
+    
+    }
+
+    .work_filers{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 1.75rem;
+        /* margin-bottom: 1rem; */
+        font-size: 2rem;
+        text-transform: capitalize;
+        margin-top: 3rem;
+        cursor: pointer;
+    }
+
+    
+.work_item{
+    
+    font-size: 1.2rem;
+    
+}
+}

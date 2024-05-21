@@ -1,0 +1,147 @@
+
+
+.services{
+    width: 93%;
+    float: right;
+    background-color:var(--bgColor3);
+    height:auto;
+    padding: 8rem 4rem;
+}
+.services h1{
+
+  
+}
+.services p{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: var(--textColor);
+}
+
+.s-cover{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-content: center;
+    /* height: 50vh; */
+    gap: 3rem;
+    margin-top: 5rem;
+   
+}
+
+.s-cover .s1{
+   padding: 5rem 5rem;
+   background-color: var(--white);
+   border-radius: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.s-cover .s1:hover{
+    box-shadow: 0 5px 20px 0 rgba(69, 67, 96, .1);
+}
+.s-cover .s1 img{
+  width: 20rem;
+  text-align: center;
+}
+
+
+.s-cover .s1 h4{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+ }
+.s-cover .s1 p{
+  line-height: 1.6em;
+    text-align: center;
+ }
+
+
+
+ @media only screen and (max-width:1400px){
+
+    .services{
+        width: 100%;
+        float: right;
+        background-color:var(--bgColor3);
+        height:auto;
+        padding: 8rem 4rem;
+    }
+    .s-cover{
+      
+        grid-template-columns: auto auto;
+        margin-top: 5rem;
+       
+    }
+ }
+ @media only screen and (max-width:1100px){
+
+    .services{
+        width: 100%;
+        float: right;
+        background-color:var(--bgColor3);
+        height:auto;
+        padding: 8rem 4rem;
+    }
+    .s-cover{
+      
+        grid-template-columns: auto auto;
+        margin-top: 5rem;
+       
+    }
+ }
+ @media only screen and (max-width:992px){
+
+    .services{
+        width: 100%;
+        float: right;
+        background-color:var(--bgColor3);
+        height:auto;
+        padding: 8rem 4rem;
+    }
+    .s-cover{
+      
+        grid-template-columns: auto auto;
+        margin-top:5rem;
+       
+    }
+ }
+
+
+ @media only screen and (max-width: 768px){
+
+    .services{
+        width: 100%;
+        float: right;
+        background-color:var(--bgColor3);
+        height:auto;
+        padding: 8rem 4rem;
+    }
+
+    .s-cover{
+      
+        grid-template-columns: auto auto;
+        margin-top: 5rem;
+       
+    }
+ }
+
+
+ @media only screen and (max-width: 668px){
+
+    .services{
+        width: 100%;
+        float: right;
+        background-color:var(--bgColor3);
+        height:auto;
+        padding: 8rem 4rem;
+    }
+
+    .s-cover{
+      
+        grid-template-columns: auto;
+        margin-top: 5rem;
+        align-content: start;
+       
+    }
+ }

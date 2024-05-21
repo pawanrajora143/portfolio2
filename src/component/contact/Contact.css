@@ -1,0 +1,234 @@
+
+
+.contact{
+    width: 93%;
+    height: 100vh;
+    background-color: var(--white);
+    float: right;
+    padding: 8rem 4rem;
+}
+.contact p{
+    font-size: 1.6rem;
+    line-height: 1.6em;
+    margin-top: 1rem;
+    color: var(--textColor);
+}
+.contact h2{
+    font-size: 2.9rem;
+    margin-bottom: 2rem;
+    font-weight:800;
+}
+
+
+.main-contact{
+    width: 100%;
+    height:auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+   
+    
+}
+.main-contact .c-first{
+   width: 64%;
+    height: auto;
+    background-color: var(--bgColor2);
+    border-radius: 2rem;
+    padding: 3rem;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+form{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+form .form-user{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+form .form-user input{
+    width: 50%;
+    height: 4.9rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.6rem;
+}
+form .form-user1 input{
+    width: 100%;
+    height: 4.9rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    border: none;
+    font-size: 1.6rem;
+}
+form .form-user1 textarea{
+    width: 100%;
+    height: 14rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    border: none;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.c-button{
+    margin-top: 3rem;
+   
+    background-color: var(--orange);
+    color: var(--white);
+}
+.c-button svg{
+   font-size: 1.8rem;
+   margin-right: 1rem;
+   padding-top: 0.2rem;
+   
+}
+
+
+
+.main-contact .c-second{
+    width: 33%;
+    height:auto;
+    background-color: var(--bgColor2);
+    border-radius: 2rem;
+    padding: 3rem;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+
+.main-contact .c-second .icons{
+    width: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 3rem;
+   
+}
+
+.icons1{
+    width: 100%;
+    display: flex;
+   /* background-color: blue; */
+    gap: 2rem;
+    align-items: flex-end;
+    color: var(--bgColor);
+    font-weight: bold;
+    /* justify-content: center; */
+    align-content: space-between;
+}
+.icons1 svg{
+    color: var(--orange);
+    z-index: 99;
+    /* rotate: 130deg; */
+    font-size: 2rem;
+}
+
+
+
+@media only screen and (max-width: 1160px){
+
+    .main-contact .c-first {
+        width: 50%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .main-contact .c-second {
+        width:45%;
+        
+    }
+
+    .contact {
+        height: auto;
+        padding: 8rem 4rem;
+        width: 100%;
+    }
+} 
+
+
+
+@media only screen and (max-width: 1400px){
+    .contact{
+        width: 100%;
+        height: auto;
+     }
+}
+
+
+ @media only screen and (max-width: 992px){
+
+    .main-contact .c-first {
+        width: 50%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .main-contact .c-second {
+        width:45%;
+        
+    }
+    .contact {
+        height: auto;
+        padding: 8rem 4rem;
+    }
+
+} 
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .contact{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--white);
+        float: right;
+        padding: 8rem 4rem;
+    }
+    .main-contact .c-first{
+       width:100%;
+    }
+    .main-contact .c-second{
+       width:100%;
+    }
+
+    form .form-user input{
+   
+        font-size: 1.3rem;
+    }
+    form .form-user1 input{
+ 
+        font-size: 1.3rem;
+    }
+    form .form-user1 textarea{
+       
+        font-size: 1.3rem;
+    
+    }
+    form .form-user{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .contact{
+        height: auto;
+    }
+
+}
+
+
+

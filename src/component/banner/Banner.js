@@ -34,9 +34,9 @@ const Banner = () => {
 
 
     return (
-        <div className="banner">
+        <div className="banner" id='home'>
            
-
+           
             {/* left section */}
 
             <div className="b-left">

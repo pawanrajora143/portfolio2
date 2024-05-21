@@ -1,0 +1,144 @@
+
+
+.skills{
+    width: 93%;
+    height: auto;
+    background-color: var(--orange);
+    float: right;
+    padding: 8rem 4rem;
+}
+.skills h1{
+    color: var(--white);
+}
+
+.skills p{
+    color: var(--white);
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+
+.skills-cover{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 8rem;
+    gap: 5REM;
+    flex-wrap: wrap;
+   
+}
+
+.s-boxes{
+    padding: 5rem 12rem 5rem 3rem;
+    background-color: var(--bgColor2);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 2rem;
+    justify-content: left;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.5s;
+    
+}
+.s-boxes:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    cursor: pointer;
+
+}
+
+
+
+
+.s-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+ 
+    
+}
+
+
+
+
+
+.s-boxes svg{
+ color:var(--bgColor);
+ margin-right: 1rem;
+ color: var(--orange);
+ font-size: 2rem;
+ 
+}
+.s-boxes p{
+ color:var(--bgColor);
+ display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 1400px){
+    .skills{
+        width: 100%;
+        height: auto;
+     }
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .skills{
+        width: 100%;
+        float: left;
+     }
+     .skills-cover {
+        
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .skills{
+       width: 100%;
+       float: left;
+    }
+
+    .s-boxes{
+        /* padding: 2rem 5rem 2rem 3rem; */
+        justify-content: space-between;
+        
+    }
+
+    .skills-cover {
+        
+        justify-content: space-between;
+    }
+
+    .s-boxes {
+        padding: 5rem 10rem 5rem 3rem;
+       
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .s-boxes{
+        padding: 2rem 5rem 2rem 3rem;
+        justify-content: space-between;
+        
+    }
+
+    .skills-cover{
+       
+        margin-top: 5rem;
+   
+       
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .s-boxes{
+       width: 100%;
+        
+    }
+
+}

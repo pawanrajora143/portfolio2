@@ -1,0 +1,228 @@
+
+.about{
+    width: 93%;
+    height: auto;
+    background-color:var(--white);
+    float: right;
+    padding: 8rem 4rem 8rem 4rem;
+}
+
+
+.about h1{
+    font-size: 4rem;
+}
+
+.about p{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    /* color: var(--textColor); */
+}
+
+.main{
+    width: 100%;
+    /* background-color: brown; */
+    margin-top: 4rem;
+    display: flex;
+    gap: 2.5rem;
+ 
+}
+
+.main .first{
+    width: 45%;
+    /* background-color: aqua; */
+    border-radius: 4rem;
+    height: 35.5rem;
+   
+}
+.main .second p{
+   color: var(--bgColor);
+   
+}
+
+.main .first img{
+   width: 100%;
+   height: 35.5rem;
+   border-radius: 2rem;
+   object-fit: cover;
+}
+.main .second{
+    width:60%;
+    padding: 6rem 4rem;
+    background-color: var(--bgColor2);
+    border-radius: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main .second:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.main .second p{
+    line-height: 1.6em;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.main .second h2{
+    font-size: 3rem;
+}
+.main .second .a-button{
+    background-color: var(--orange);
+    margin-top: 4rem;
+    color: var(--white);
+    font-weight: 600;
+    width: 21rem;
+    font-size: 1.7rem;
+}
+
+.main .second .a-button svg{
+   margin-right: 1rem;
+}
+
+
+.main .second .a-button:hover{
+    background-color: var(--bgColor);
+    
+}
+
+
+.boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.boxes .box1{
+    width: 29rem;
+    padding: 2rem 2rem;
+    background-color: var(--bgColor2);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.boxes .box1:hover{
+    box-shadow: 0 5px 20px 0 rgba(69, 67, 96, .1);
+    background-color: var(--orange);
+    color: var(--white);
+
+}
+.boxes .box1:hover svg{
+    color: var(--white);
+}
+.boxes .box1:hover .extra{
+    color: var(--white);
+}
+
+
+.boxes .box1 p:nth-of-type(1){
+    color:var(--orange);
+    font-size: 2rem;
+
+}
+.boxes .box1 p:nth-of-type(2){
+   
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.boxes .box1 .extra{
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+@media only screen and (max-width: 1400px){
+    .about{width: 100%;
+    height: auto;}
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    .about{
+        float: left;
+        width: 100%;
+      height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .about{
+        float: left;
+        width: 100%;
+      height: auto;
+    }
+   
+    .main{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       
+    }
+    .main .first{
+       width: 100%;
+     
+    }
+    .main .second{
+       width: 100%;
+       margin-top: 2rem;
+     
+    }
+    .boxes{
+        gap: 4rem;
+        flex-wrap: wrap;
+        /* margin-bottom: 5rem; */
+    }
+    .boxes .box1{
+        width: 30rem;
+       
+    
+    }
+   
+
+
+}
+
+
+@media only screen and (max-width: 700px){
+    .boxes{
+        width: 100%;
+    }
+    .boxes .box1{
+        width: 44%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .boxes .box1 .extra{
+        font-size: 1.7rem;
+    }
+    .boxes .box1 p:nth-of-type(2){
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+   .boxes .box1{
+        width: 100%;
+    }
+    .main .second .a-button{
+        width: 22rem;
+    }
+}
