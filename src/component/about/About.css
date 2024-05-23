@@ -32,6 +32,7 @@
     /* background-color: aqua; */
     border-radius: 4rem;
     height: 35.5rem;
+    background-color: var(--orange);
    
 }
 .main .second p{
@@ -40,11 +41,20 @@
 }
 
 .main .first img{
-   width: 100%;
+   width: 350px;
    height: 35.5rem;
    border-radius: 2rem;
-   object-fit: cover;
+   object-fit: fit-cover;
 }
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 .main .second{
     width:60%;
     padding: 6rem 4rem;
@@ -74,6 +84,12 @@
     width: 21rem;
     font-size: 1.7rem;
 }
+
+.second a{
+    color: #fff;
+    text-decoration: none;
+ }
+ 
 
 .main .second .a-button svg{
    margin-right: 1rem;
@@ -105,6 +121,7 @@
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
 }
 
 
@@ -156,6 +173,13 @@
         float: left;
         width: 100%;
       height: auto;
+    }
+
+    .main .first img {
+        width: 328px;
+        height: 35.5rem;
+        border-radius: 2rem;
+        object-fit: fit-cover;
     }
 }
 

@@ -9,17 +9,20 @@
     float: left;
     position: fixed;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
 
-.navbar ul{
+.navbar ul li{
 display: flex;
 flex-direction: row-reverse;
-gap: 6rem;
-margin-top: 10rem;
+gap: 1rem;
+margin-top: 7rem;
 transform: rotate(-90deg);
-margin-top: 12rem;
+/* margin-top: 12rem; */
 }
 
 .navbar ul li{
@@ -66,6 +69,19 @@ margin-top: 12rem;
 }
 
 
+.image {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+  
+}
+
+.image img{
+    width: 70%;
+    
+}
+
 
 
 @media only screen and (max-width: 768px){
@@ -107,4 +123,9 @@ margin-top: 12rem;
     
     .sidebar{
         display: none;
-    }}
+    }
+    
+
+   
+
+}

@@ -16,8 +16,9 @@ import { MdMenu } from "react-icons/md";
 
 
 
-const Banner = () => {
+const Banner = (props) => {
 
+    // console.log(props.showNavbar)
     
     const [text] = useTypewriter({
         words:["Frontend Developer" , "Web Designer"],
@@ -32,6 +33,12 @@ const Banner = () => {
     }
 
 
+    // const showNavbar = () =>{
+    //     // navRef.current.classList.toggle("responsive_nav");
+    //     alert("hello")
+    //   }
+
+
 
     return (
         <div className="banner" id='home'>
@@ -43,10 +50,12 @@ const Banner = () => {
 
                 <div className="icons">
                   
-                <FaGithub />
-                    <FaLinkedinIn />
+               <a href='https://github.com/pawanrajora143'> <FaGithub /> </a>
+               <a href='https://www.linkedin.com/in/pawan-rajora-848153191/'> <FaLinkedinIn /> </a>
+               <a href='https://x.com/pawanrajora143'> <FaTwitter /></a>
                     
-                    <FaTwitter />
+                    
+                
                  
 
 
@@ -59,8 +68,9 @@ const Banner = () => {
                     <span>I Am a <span>{text} </span><Cursor/></span> 
                      
                   
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla pretium lacus, eu luctus neque ultricies a.</span>
-                    <button className=' button b-button'><FaUserCircle />More About Me</button>
+                    <span>
+I am a web designer and frontend developer, creating visually appealing, responsive websites with seamless user experiences and modern, efficient code.</span>
+                   <a href="#about"><button className=' button b-button'><FaUserCircle />More About Me</button></a> 
                 </div>
 
 
@@ -90,18 +100,12 @@ const Banner = () => {
 
 
             {/* left section */}
-
+            {/* <Banner data={showNavbar}/> */}
 
             <div className="b-right">
-                <div className="menuicon"> <button onClick={(e)=>handleCLick(e)} className='m-button'><MdMenu/></button></div>
-           
-
-
+                {/* <div className="menuicon"> <button onClick={(e)=>handleCLick(e)} className='m-button'><MdMenu/></button></div> */}
+                {/* <button className='nav-btn nav-close-btn' onClick={()=>props.showNavbar()}>onClick</button> */}
             </div>
-
-        
-
-
         </div>
     )
 }

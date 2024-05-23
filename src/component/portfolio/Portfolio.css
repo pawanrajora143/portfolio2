@@ -62,7 +62,7 @@
 .work_container{
     grid-template-columns: auto auto auto;
     gap:8rem ;
-    /* justify-content: center; */
+    justify-content: space-between;
     display: grid;
     margin-top: 5rem;
     width: 100%;
@@ -98,6 +98,28 @@
 }
 
 
+
+.cover-icon{
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+    height: auto;
+   }
+.cover-icon button{
+   background-color: transparent;
+   border: none;
+   }
+
+.cover-icon a{
+    text-decoration: none;
+    /* color: var(--orange);
+    font-weight: bold; */
+   }
+
+.cover-icon svg{
+    margin-right: 0.5rem;
+    color: var(--orange);
+   } 
 
 
 
@@ -140,6 +162,9 @@
         width: 100%;
         overflow: hidden;
     }
+
+
+
 
 
 

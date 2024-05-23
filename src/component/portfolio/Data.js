@@ -14,37 +14,49 @@ export const projectData = [
         id:"1",
         image:accordian,
         title:"accordian",
-        category:"JAVASCRIPT"
+        category:"JAVASCRIPT",
+        live:"https://accordionjs-teal.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/Accordion"
     },
     {
         id:"2",
         image:contdown,
         title:"contdown",
-        category:"javascript"
+        category:"javascript",
+        live:"https://contdown-pawan-kumars-projects-a23b2787.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/contdown"
     },
     {
         id:"3",
         image:popup,
         title:"popup",
-        category:"JAVASCRIPT"
+        category:"JAVASCRIPT",
+        live:"https://popup-psi-khaki.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/Popup"
     },
     {
         id:"4",
         image:bmicalculater,
         title:"bmi calculater",
-        category:"JAVASCRIPT"
+        category:"JAVASCRIPT",
+        live:"https://bmi-calculator-six-eta.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/BMI-Calculator"
     },
     {
         id:"5",
         image:tictactoe,
         title:"tic tac toe",
-        category:"JAVASCRIPT"
+        category:"JAVASCRIPT",
+        live:"https://tic-tac-toe-murex-ten.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/TicTacToe"
     },
     {
         id:"6",
         image:html,
         title:"website",
-        category:"HTML/CSS"
+        category:"HTML/CSS",
+        live:"https://pawanrajora143.netlify.app/",
+        gitcode:""
     },
 ]
 

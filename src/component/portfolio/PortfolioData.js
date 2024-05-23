@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { projectData } from './Data'
 import { projectsNav } from './Data'
-import WorksItems from './WorksItems'
+// import WorksItems from './WorksItems'
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 
 const PortfolioData = () => {
@@ -30,7 +31,7 @@ const PortfolioData = () => {
 
   return (
     <>
-   <div className="work_filers">
+   <div className="work_filers" key={item.id}>
     {projectsNav.map((item , index)=>{
         return(
             <span onClick={(e)=>handleClick(e , index)} 
@@ -45,7 +46,16 @@ const PortfolioData = () => {
 
     <div className="work_container container grid">
         {projects.map((item , index)=>{
-            return <WorksItems item={item} key={item.id}/>
+            return     <div className="work_card" key={item.id}>
+
+            <img src={item.image} alt="" className='work_img' />
+            <h3 className="work_title">{item.title}</h3>
+            
+          <div className="cover-icon">
+              <button><a href={item.live} target='_blank' className='work_button'><FaExternalLinkAlt />Live Link </a></button>
+              <button><a href={item.gitcode} target='_blank' className='work_button'><FaGithub /> Source code </a></button>
+              </div>
+          </div>
 
         })}
         </div>

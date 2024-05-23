@@ -35,13 +35,13 @@ const Contact = () => {
 
                 <div className="icons">
                     <div className="icons1">
-                        <FaPhoneAlt/> <p>+(684) 555-0102</p>
+                        <FaPhoneAlt/> <p>+(91) 96-5068-2589</p>
                     </div>
                     <div className="icons1">
-                        <FaEnvelope/> <p>mariamdemo@gmail.com</p>
+                        <FaEnvelope/> <p>pawanrajora143@gmail.com</p>
                     </div>
                     <div className="icons1">
-                        <FaLocationArrow/> <p>241 Royal Mesa, New Jersey</p>
+                        <FaLocationArrow/> <p>A-405 Tigri Near by saket</p>
                     </div>
                     
                 </div>

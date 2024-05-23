@@ -36,7 +36,7 @@ const Skills = () => {
 
                     <div className="s-box"><p><FaCheckCircle />GIT</p></div>
                     <div className="s-box"><p><FaCheckCircle />GITHUB</p></div>
-                    <div className="s-box"><p><FaCheckCircle />SAAS</p></div>
+                    <div className="s-box"><p><FaCheckCircle />SASS</p></div>
 
 
                 </div>
