@@ -164,12 +164,55 @@
 }
 
 
+/* ===================navbar2 design============== */
+
+.navbar2{
+    width: 100%;
+    /* background-color: aqua; */
+   
+}
+
+.navbar2 ul{
+    display: flex;
+    gap: 4rem;
+    display: none;
+}
+.navbar2 ul li{
+    list-style-type: none;
+}
+.navbar2 ul li a{
+   font-size: 2rem;
+   text-decoration: none;
+   text-transform: capitalize;
+   color: white;
+}
+
+
+.nav-icons{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+   
+    color: #fff;
+    font-size: 2rem;
+    display: none;
+}
+
+.nav-icons[name="close-outline"]{
+    display:none ;
+}
+
+
+.close-outline{
+    display: none;
+}
+
 
 
 @media only screen and (max-width: 600px){
 
     .banner{
-       width: 100%;
+       width: 95%;
        padding: 2rem 4rem;
        background-image: url(../../images/face.png);
        background-position:  right ;
@@ -179,6 +222,17 @@
        
     }
 
+    .nav-icons{
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        justify-content: end ;
+        /* margin-right: 10px; */
+        color: #fff;
+        font-size: 2rem;
+        z-index: 999;
+     
+    }
     .b-left{
         width: 100%;
    
@@ -214,7 +268,7 @@
     /* right section banner */
 
     .b-right{
-       width: 1%;
+       width: 5%;
     }
 
     .menuicon{
@@ -258,7 +312,7 @@
 }
 
 
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1404px){
 
 .banner{
     width: 100%;
@@ -282,7 +336,81 @@
         background-repeat: no-repeat;
         background-size: 500px 500px;
      }
+
+     .nav-icons{
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        justify-content: end ;
+        /* margin-right: 10px; */
+        color: #fff;
+        font-size: 2rem;
+        z-index: 999;
+     
+    }
+    .navbar2 ul{
+        display: block;
+        display: flex;
+        gap: 4rem;
+      
+        
+    }
+
+    /* hide the orginal nav */
+
+    .navbar2 ul{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+      background-color:var(--orange);
+      transform: translateX(100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      gap: 6rem;
+      visibility: hidden;
+        opacity: 0;
+        
+    }
+
+    .active  .mobile-nav-icons{
+        display: none;
+        font-size: 2.2rem;
+        position: absolute;
+        top: 3%;
+        right: 5%;
+        color: #ffffff;
+        z-index: 999;
+    }
+
+    .active .close-outline{
+        display: block;
+    }
+
+    .active  ul{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0%);
+        z-index: 999;
+    }
+
+
  
+    /* .nav-icons[name="close-outline"]{
+        display:none ;
+    }
+    
+    
+    .close-outline{
+        display: none;
+    } */
+
+    
+    
 }
 
 

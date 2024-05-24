@@ -25,7 +25,7 @@ const Services = () => {
 I offer end-to-end custom website development, including design, coding, testing, deployment, and ongoing support to meet your unique needs.</p></div>
                 <div className="s1"><img src={responsive} alt="" /><h4>Responsive Design</h4><p>
 I specialize in responsive design, creating websites that adapt seamlessly to any device, ensuring a consistent user experience.</p></div>
-                <div className="s1"><img src={ee} alt="" /><h4>E-commerce Development</h4><p>I provide e-commerce development services, building secure, user-friendly online stores with seamless payment integration and a smooth shopping experience.</p></div>
+                <div className="s1"><img src={one} alt="" /><h4>E-commerce Development</h4><p>I provide e-commerce development services, building secure, user-friendly online stores with seamless payment integration and a smooth shopping experience.</p></div>
                 <div className="s1"><img src={four} alt="" /><h4>Content Management System</h4><p>
 I offer CMS development services, enabling easy content updates and management with user-friendly interfaces and robust functionality tailored to your needs.</p></div>
                 <div className="s1"><img src={five} alt="" /><h4>Website Maintenance </h4><p>

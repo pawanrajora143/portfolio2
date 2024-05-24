@@ -121,6 +121,10 @@
     color: var(--orange);
    } 
 
+   .work_card a{
+    color: black;
+   }
+
 
 
 
