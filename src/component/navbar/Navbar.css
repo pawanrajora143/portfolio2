@@ -45,6 +45,11 @@ transform: rotate(-90deg);
     color: var(--orange);
 }
 
+#nonactive{
+    color: var(--black);
+}
+
+
 
 .l-cover{
     display: flex;
@@ -66,15 +71,22 @@ transform: rotate(-90deg);
     margin-top: 3rem;
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: none;
+}
+
+.logo a{
+    text-decoration: none;
+    color: var(--white);
 }
 
 
-.image {
+.image a{
     width: 100%;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
-  
+    align-items: center;
+
 }
 
 .image img{

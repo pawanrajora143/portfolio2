@@ -16,8 +16,10 @@ import { MdMenu } from "react-icons/md";
 
 
 
-const Banner = (props) => {
 
+
+const Banner = (props) => {
+ 
     const [openMenu, setOpenMenu] = useState(false)
 
     // console.log(props.showNavbar)
@@ -50,21 +52,21 @@ const Banner = (props) => {
 
             <div className="b-left">
 
-                <div className="icons">
+                <div
+                 
+                
+                className="icons">
 
-                    <a href='https://github.com/pawanrajora143'> <FaGithub /> </a>
+                    <a href= ' https://github.com/pawanrajora143'>  <FaGithub /> </a>
                     <a href='https://www.linkedin.com/in/pawan-rajora-848153191/'> <FaLinkedinIn /> </a>
                     <a href='https://x.com/pawanrajora143'> <FaTwitter /></a>
-
-
-
-
-
 
                 </div>
 
 
-                <div className="intro">
+                <div
+               
+                className="intro">
                     <span>👋 Hi There,</span>
                     <span>Pawan Rajora</span>
                     <span>I Am a <span>{text} </span><Cursor /></span>

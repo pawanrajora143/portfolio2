@@ -1,0 +1,25 @@
+
+
+/* .top-btn{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background-color: var(--black);
+    padding: 1rem;
+    color: var(--orange);
+    border-radius:5px;
+} */
+
+.top-btn svg{
+    animation: gotop 1.2s linear infinite alternate-reverse;
+}
+
+@keyframes gotop{
+
+    0%{
+        transform: translateY(-0.1rem);
+    }
+    100%{
+        transform: translateY(0.8rem);
+    }
+}

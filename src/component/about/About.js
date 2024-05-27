@@ -16,7 +16,7 @@ const About = () => {
 
     <div className="main">
         <div className="first"><img src={about} alt="" class="center" /></div>
-        <div className="second"><h2>Hello, I'm Pawan Rajora, Based in India</h2><p>Passionate Frontend 
+        <div className="second"><h2>Hello, I'm Pawan Rajora</h2><p>Passionate Frontend 
           Developer/Designer embracing React and cutting-edge technologies. Crafting engaging web experiences with
            creativity and technical expertise. Let's connect and elevate your projects! 🚀💻</p> 
            <button className='button a-button'><a href={resume} download="resume"><FaDownload/>Download My CV</a></button></div>
