@@ -1,11 +1,22 @@
 
 .about{
     width: 93%;
+    max-width: 1380px !important;
+    padding: 8rem 4rem 8rem 4rem;
+    float: right;
     height: auto;
     background-color:var(--white);
-    float: right;
-    padding: 8rem 4rem 8rem 4rem;
+    margin: auto;
+ 
+    
+   
 }
+
+
+
+
+
+
 
 
 .about h1{

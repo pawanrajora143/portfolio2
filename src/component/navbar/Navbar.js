@@ -45,7 +45,7 @@ const data = props.showNavbar
       
        
             <ul>
-                <li><a  href="#home" onClick={()=>handle("home")} id={active ==="home" ? "active" : "nonactive" } >home</a></li>
+                <li><a href="#home"  onClick={()=>handle("home")} id={active ==="home" ? "active" : "nonactive"} >home</a></li>
                 <li><a href="#about"  onClick={()=>handle("about")} id={active ==="about" ? "active" : "nonactive" }>about</a></li>
                 <li><a href="#skills" onClick={()=>handle("skills")} id={active ==="skills" ? "active" : "nonactive" }>skills</a></li>
                 <li><a href="#services" onClick={()=>handle("services")} id={active ==="services" ? "active" : "nonactive" }>services</a></li>
