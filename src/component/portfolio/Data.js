@@ -1,7 +1,7 @@
 
 import accordian from "./../../images/accordian.png"
 import contdown from "./../../images/contdown.png"
-import popup from "./../../images/popup.png"
+import crud from "./../../images/crud.png"
 import bmicalculater from "./../../images/bmi calculater.png"
 import tictactoe from "./../../images/tic tac toe.png"
 import html from "./../../images/html (2).png"
@@ -28,11 +28,11 @@ export const projectData = [
     },
     {
         id:"3",
-        image:popup,
-        title:"popup",
-        category:"JAVASCRIPT",
-        live:"https://popup-psi-khaki.vercel.app/",
-        gitcode:"https://github.com/pawanrajora143/Popup"
+        image:crud,
+        title:"crud Operation",
+        category:"REACT",
+        live:"https://crud-one-livid.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/crud-operation"
     },
     {
         id:"4",
