@@ -247,12 +247,14 @@
         display: flex;
         justify-content: left;
         align-items: center;
-        column-gap: 1.75rem;
+        /* column-gap: 1.75rem; */
         /* margin-bottom: 1rem; */
         font-size: 2rem;
         text-transform: capitalize;
         margin-top: 3rem;
         cursor: pointer;
+        flex-wrap: wrap;
+        gap: 2rem;
     }
 
     
@@ -262,3 +264,6 @@
     
 }
 }
+
+
+
