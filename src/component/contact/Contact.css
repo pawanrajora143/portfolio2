@@ -1,10 +1,19 @@
 
 
-.contact{
+.cover5{
     width: 93%;
-    height: 100vh;
-    background-color: var(--white);
+    height: 100%;
     float: right;
+    background-color: var(--white);
+
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    max-width: 1280px;
+    margin: auto;
     padding: 8rem 4rem;
 }
 .contact p{
@@ -138,6 +147,10 @@ form .form-user1 textarea{
 
 
 @media only screen and (max-width: 1160px){
+    .cover5{
+        width: 100%;
+    
+    }
 
     .main-contact .c-first {
         width: 50%;
@@ -160,6 +173,10 @@ form .form-user1 textarea{
 
 
 @media only screen and (max-width: 1400px){
+    .cover5{
+        width: 100%;
+    
+    }
     .contact{
         width: 100%;
         height: auto;
@@ -168,6 +185,10 @@ form .form-user1 textarea{
 
 
  @media only screen and (max-width: 992px){
+    .cover5{
+        width: 100%;
+    
+    }
 
     .main-contact .c-first {
         width: 50%;
@@ -191,6 +212,10 @@ form .form-user1 textarea{
 
 
 @media only screen and (max-width: 768px){
+    .cover5{
+        width: 100%;
+    
+    }
     .contact{
         width: 100%;
         height: 100vh;

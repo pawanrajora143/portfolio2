@@ -12,6 +12,8 @@ const Portfolio = () => {
 
   return (
 
+
+    <div className="cover4">
     
     <div className=" portfolio" id="project">
         <div className="heading">
@@ -21,6 +23,7 @@ const Portfolio = () => {
 
 
     <PortfolioData/>
+    </div>
     </div>
   )
 }

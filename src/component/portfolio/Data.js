@@ -1,5 +1,5 @@
 
-import accordian from "./../../images/accordian.png"
+import filter from "./../../images/filter.png"
 import contdown from "./../../images/contdown.png"
 import crud from "./../../images/crud.png"
 import bmicalculater from "./../../images/bmi calculater.png"
@@ -12,16 +12,16 @@ import html from "./../../images/html (2).png"
 export const projectData = [
     {
         id:"1",
-        image:accordian,
-        title:"accordian",
-        category:"JAVASCRIPT",
-        live:"https://accordionjs-teal.vercel.app/",
-        gitcode:"https://github.com/pawanrajora143/Accordion"
+        image:filter,
+        title:"Filter Gallery With Search",
+        category:"REACT",
+        live:"https://filter-gallery.vercel.app/",
+        gitcode:"https://github.com/pawanrajora143/Filter-Gallery"
     },
     {
         id:"2",
         image:contdown,
-        title:"contdown",
+        title:" JavaScript Contdown",
         category:"javascript",
         live:"https://contdown-pawan-kumars-projects-a23b2787.vercel.app/",
         gitcode:"https://github.com/pawanrajora143/contdown"
@@ -45,7 +45,7 @@ export const projectData = [
     {
         id:"5",
         image:tictactoe,
-        title:"tic tac toe",
+        title:"Tic Tac Toe Game",
         category:"JAVASCRIPT",
         live:"https://tic-tac-toe-murex-ten.vercel.app/",
         gitcode:"https://github.com/pawanrajora143/TicTacToe"
@@ -53,7 +53,7 @@ export const projectData = [
     {
         id:"6",
         image:html,
-        title:"website",
+        title:"HTML CSS Website",
         category:"HTML/CSS",
         live:"https://pawanrajora143.netlify.app/",
         gitcode:""

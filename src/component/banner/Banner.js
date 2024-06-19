@@ -45,6 +45,8 @@ const Banner = (props) => {
 
 
     return (
+
+        <div className="wrapper">
         <div className="banner" id='home'>
 
 
@@ -129,6 +131,7 @@ const Banner = (props) => {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 }

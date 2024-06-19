@@ -15,6 +15,8 @@ import ee from "../../images/eee.jpg"
 
 const Services = () => {
     return (
+
+        <div className="cover3">
         <div className="services" id='services'>
             <h1>My Services</h1>
             <p>I Have Worked With A Number Of Clients.</p>
@@ -43,6 +45,7 @@ I provide website maintenance services, ensuring your site stays updated, secure
             </div>
 
 
+        </div>
         </div>
     )
 }

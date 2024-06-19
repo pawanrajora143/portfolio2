@@ -8,6 +8,8 @@ import { FaCheckCircle } from 'react-icons/fa'
 
 const Skills = () => {
     return (
+
+        <div className="cover2">
         <div className="skills" id='skills'>
             <h1>MY SKILLS</h1>
             <p>My technical level</p>
@@ -53,6 +55,7 @@ const Skills = () => {
             </div>
 
 
+        </div>
         </div>
     )
 }

@@ -1,11 +1,26 @@
 
 
-.skills{
+
+.cover2{
     width: 93%;
+    height: 100%;
+    float: right;
+    background-color: var(--orange);
+
+}
+
+
+
+
+.skills{
+    width: 100%;
     height: auto;
     background-color: var(--orange);
-    float: right;
     padding: 8rem 4rem;
+    max-width: 1280px;
+    margin: auto;
+
+
 }
 .skills h1{
     color: var(--white);
@@ -21,7 +36,7 @@
 .skills-cover{
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     margin-top: 5rem;
     gap: 5REM;
     flex-wrap: wrap;
@@ -77,6 +92,9 @@
 
 
 @media only screen and (max-width: 1400px){
+    .cover2{
+        width: 100%;
+    }
     .skills{
         width: 100%;
         height: auto;
@@ -86,6 +104,9 @@
 
 
 @media only screen and (max-width: 992px){
+    .cover2{
+        width: 100%;
+    }
     .skills{
         width: 100%;
         float: left;
@@ -98,6 +119,9 @@
 
 
 @media only screen and (max-width: 768px){
+    .cover2{
+        width: 100%;
+    }
     .skills{
        width: 100%;
        float: left;
@@ -121,6 +145,9 @@
 
 }
 @media only screen and (max-width: 600px){
+    .cover2{
+        width: 100%;
+    }
     .s-boxes{
         padding: 2rem 5rem 2rem 3rem;
         justify-content: space-between;
@@ -136,6 +163,9 @@
 
 }
 @media only screen and (max-width: 500px){
+    .cover2{
+        width: 100%;
+    }
     .s-boxes{
        width: 100%;
         

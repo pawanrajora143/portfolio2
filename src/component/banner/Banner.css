@@ -1,6 +1,14 @@
-.banner {
+
+.wrapper{
     width: 93%;
-    background-color: var(--orange);
+    height: 100vh;
+   background-color: var(--orange); 
+    float: right;
+}
+
+.banner {
+    width: 100%;
+   max-width: 1280px;
     height: 100vh;
     display: flex;
     padding: 4rem 4rem;
@@ -9,7 +17,7 @@
     background-repeat: no-repeat;
     background-size: 650px 650px;
     /* background-size: contain; */
-    float: right;
+    margin: auto;
 }
 
 .icons a{
@@ -211,8 +219,16 @@
 
 @media only screen and (max-width: 600px){
 
+    
+.wrapper{
+    width: 100%;
+    height: 100vh;
+   background-color: var(--orange); 
+    float: right;
+}
+
     .banner{
-       width: 95%;
+       width: 100%;
        padding: 2rem 4rem;
        background-image: url(../../images/face.png);
        background-position:  right ;
@@ -285,6 +301,13 @@
 
 
 @media only screen and (max-width: 768px){
+
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+       background-color: var(--orange); 
+        float: right;
+    }
     .b-button {
         margin-top: 1rem;
     }
@@ -303,6 +326,13 @@
 
 
 @media only screen and (max-width: 1100px){
+
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+       background-color: var(--orange); 
+        float: right;
+    }
 .banner{
     width: 100%;
 }
@@ -313,6 +343,12 @@
 
 
 @media only screen and (max-width: 1404px){
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+       background-color: var(--orange); 
+        float: right;
+    }
 
 .banner{
     width: 100%;
@@ -328,6 +364,12 @@
 
 @media only screen and (max-width: 992px){
    
+    .wrapper{
+        width: 100%;
+        height: 100vh;
+       background-color: var(--orange); 
+        float: right;
+    }
     .banner{
         width: 100%;
         padding: 2rem 4rem;

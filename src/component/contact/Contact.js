@@ -6,6 +6,7 @@ import { FaTelegramPlane , FaPhoneAlt, FaEnvelope ,FaLocationArrow  } from 'reac
 
 const Contact = () => {
     return (
+        <div className="cover5">
         <div className="contact" id='contact'>
             <h1>Contact Me</h1>
             <p>Feel Free To Contact Me Any Time</p>
@@ -49,6 +50,7 @@ const Contact = () => {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }

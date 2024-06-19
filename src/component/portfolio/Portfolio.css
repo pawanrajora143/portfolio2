@@ -1,10 +1,19 @@
 
 
-.portfolio{
+.cover4{
     width: 93%;
+    height: 100%;
+    float: right;
+    background-color: var(--orange);
+}
+
+
+.portfolio{
+    width: 100%;
     height: auto;
     background-color: var(--orange);
-    float: right;
+    max-width: 1280px;
+    margin: auto;
     padding: 8rem 4rem;
 
 }
@@ -136,12 +145,22 @@
 
 
 @media only screen and (max-width: 1400px){
+
+    
+.cover4{
+    width: 100%;
+   
+}
     .portfolio{
         width: 100%;
         height: auto;
      }
 }
 @media only screen and (max-width: 1200px){
+    .cover4{
+        width: 100%;
+       
+    }
     .work_container{
         grid-template-columns: auto auto ;
         gap:8rem ;
@@ -175,6 +194,10 @@
 
 }
 @media only screen and (max-width: 768px){
+    .cover4{
+        width: 100%;
+       
+    }
     .work_container{
         grid-template-columns: auto auto ;
         gap:5rem ;
@@ -208,6 +231,10 @@
 
 
 @media only screen and (max-width: 600px){
+    .cover4{
+        width: 100%;
+       
+    }
     .portfolio{
         width: 100%;
         height: auto;

@@ -8,6 +8,9 @@ import resume from "./../../images/resume.pdf"
 
 const About = () => {
   return (
+
+    <div className="cover">
+    
    <div className="about" id='about'>
     <h1>About Me</h1>
     <p>About Me And What I Love To Do.
@@ -30,7 +33,8 @@ const About = () => {
       
     </div>
 
-   </div>
+   </div></div>
+
   )
 }
 

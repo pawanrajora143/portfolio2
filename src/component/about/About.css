@@ -1,9 +1,19 @@
 
-.about{
+
+.cover{
     width: 93%;
-    max-width: 1380px !important;
-    padding: 8rem 4rem 8rem 4rem;
+    height: 100%;
     float: right;
+
+}
+
+
+.about{
+    width: 100%;
+   max-width: 1280px;
+   margin: auto;
+    padding: 8rem 4rem 8rem 4rem;
+    
     height: auto;
     background-color:var(--white);
     margin: auto;
@@ -114,12 +124,12 @@
 
 
 .boxes{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 .boxes .box1{
@@ -152,18 +162,18 @@
 
 .boxes .box1 p:nth-of-type(1){
     color:var(--orange);
-    font-size: 2rem;
+    font-size: 1.8rem;
 
 }
 .boxes .box1 p:nth-of-type(2){
    
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 
 }
 .boxes .box1 .extra{
     color: var(--orange);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -174,12 +184,18 @@
 @media only screen and (max-width: 1400px){
     .about{width: 100%;
     height: auto;}
+    .cover{
+        width: 100%;
+    }
 }
 
 
 
 
 @media only screen and (max-width: 992px){
+    .cover{
+        width: 100%;
+    }
     .about{
         float: left;
         width: 100%;
@@ -196,6 +212,9 @@
 
 
 @media only screen and (max-width: 768px){
+    .cover{
+        width: 100%;
+    }
     .about{
         float: left;
         width: 100%;
@@ -234,6 +253,9 @@
 
 
 @media only screen and (max-width: 700px){
+    .cover{
+        width: 100%;
+    }
     .boxes{
         width: 100%;
     }
@@ -254,6 +276,9 @@
 
 
 @media only screen and (max-width: 420px){
+    .cover{
+        width: 100%;
+    }
    .boxes .box1{
         width: 100%;
     }
