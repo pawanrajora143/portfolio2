@@ -54,18 +54,24 @@
     border-radius: 4rem;
     height: 35.5rem;
     background-color: var(--orange);
+    background-image: url(../../images/face.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
    
 }
+
+
 .main .second p{
    color: var(--bgColor);
    
 }
 
 .main .first img{
-   width: 350px;
-   height: 35.5rem;
+   width: auto;
+   height: auto;
    border-radius: 2rem;
-   object-fit: fit-cover;
+   object-fit: cover;
 }
 
 
@@ -126,14 +132,14 @@
 .boxes{
     width: auto;
     height: auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 5rem;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 2rem;
+   
 }
 .boxes .box1{
-    width: 29rem;
+    width: auto;
     padding: 2rem 2rem;
     background-color: var(--bgColor2);
     border-radius: 2rem;
@@ -201,14 +207,34 @@
         width: 100%;
       height: auto;
     }
-
-    .main .first img {
-        width: 328px;
+    .main .first{
+        width: 45%;
+        /* background-color: aqua; */
+        border-radius: 4rem;
         height: 35.5rem;
-        border-radius: 2rem;
-        object-fit: fit-cover;
+        background-color: var(--orange);
+        background-image: url(../../images/face.png);
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+       
     }
+    
+.boxes{
+    width: auto;
+    height: auto;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    gap: 2rem;
+   
 }
+
+
+
+}
+
+
 
 
 @media only screen and (max-width: 768px){
@@ -219,6 +245,16 @@
         float: left;
         width: 100%;
       height: auto;
+    }
+
+    .boxes{
+        width: auto;
+        height: auto;
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+        margin-top: 5rem;
+        gap: 2rem;
+       
     }
    
     .main{
@@ -237,12 +273,11 @@
      
     }
     .boxes{
-        gap: 4rem;
-        flex-wrap: wrap;
+    
         /* margin-bottom: 5rem; */
     }
     .boxes .box1{
-        width: 30rem;
+        width: auto;
        
     
     }
@@ -260,7 +295,7 @@
         width: 100%;
     }
     .boxes .box1{
-        width: 44%;
+        width: auto;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -275,14 +310,62 @@
 }
 
 
+@media only screen and (max-width: 600px){
+    
+    .about{
+        float: left;
+        width: 100%;
+      height: auto;
+      padding: 5rem 2rem;
+    }
+
+    .about p {
+        font-size: 1.4rem;
+       
+        
+    }
+
+}
+
+
 @media only screen and (max-width: 420px){
     .cover{
         width: 100%;
     }
    .boxes .box1{
         width: 100%;
+        
     }
     .main .second .a-button{
         width: 22rem;
     }
+}
+
+@media only screen and (max-width: 450px){
+    .boxes{
+        width: auto;
+        height: auto;
+        display: grid;
+       grid-template-columns: 1fr;
+        margin-top: 0rem;
+        gap: 5rem;
+        padding: 6rem 0rem 0rem 0rem;
+       
+    }
+
+    .boxes .box1 p:nth-of-type(2){
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .main .second h2 {
+        font-size: 2.5rem;
+    }
+
+    .boxes .box1{
+        width: 100%;
+        padding: 3rem 0rem;
+        
+    }
+  
 }

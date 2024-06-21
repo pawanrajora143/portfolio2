@@ -35,7 +35,7 @@
     /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
-    margin-top: 8rem;
+    margin-top: 5rem;
     gap: 3rem;
     flex-wrap: wrap;
    
@@ -232,15 +232,15 @@ form .form-user1 textarea{
 
     form .form-user input{
    
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     form .form-user1 input{
  
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     form .form-user1 textarea{
        
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     
     }
     form .form-user{
@@ -256,4 +256,37 @@ form .form-user1 textarea{
 }
 
 
+
+@media only screen and (max-width: 600px){
+  
+    .contact{
+        
+        padding: 5rem 2rem;
+    }
+
+    form .form-user input{
+        width: 100%;
+        
+       
+    }
+
+    form .form-user{
+      
+        flex-direction: column;
+       
+    }
+    .main-contact .c-first{
+  
+    padding: 2rem;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.contact p {
+    font-size: 1.4rem;
+    /* line-height: 1.6em;
+    margin-top: 1rem;
+    color: var(--textColor); */
+}
+
+}
 

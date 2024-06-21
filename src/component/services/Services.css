@@ -169,3 +169,21 @@
        
     }
  }
+
+ @media only screen and (max-width: 600px){
+  
+
+    .services{
+        width: 100%;
+        float: right;
+        background-color:var(--bgColor3);
+        height:auto;
+        padding: 5rem 2rem;
+    }
+
+    .services p {
+        font-size: 1.4rem;
+        
+    }
+
+}

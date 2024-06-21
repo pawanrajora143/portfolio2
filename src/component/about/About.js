@@ -7,6 +7,11 @@ import {   FaAward , FaBriefcase, FaCode , FaSmile , FaDownload} from 'react-ico
 import resume from "./../../images/resume.pdf"
 
 const About = () => {
+
+const getData = document.querySelector(".first")
+console.log("poora", getData)
+
+
   return (
 
     <div className="cover">
@@ -18,7 +23,7 @@ const About = () => {
 </p>
 
     <div className="main">
-        <div className="first"><img src={about} alt="" class="center" /></div>
+        <div className="first"></div>
         <div className="second"><h2>Hello, I'm Pawan Rajora</h2><p>Passionate Frontend 
           Developer/Designer embracing React and cutting-edge technologies. Crafting engaging web experiences with
            creativity and technical expertise. Let's connect and elevate your projects! 🚀💻</p> 

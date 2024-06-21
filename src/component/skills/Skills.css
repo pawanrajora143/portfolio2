@@ -3,9 +3,10 @@
 
 .cover2{
     width: 93%;
-    height: 100%;
+    height: auto;
     float: right;
     background-color: var(--orange);
+
 
 }
 
@@ -13,12 +14,14 @@
 
 
 .skills{
+    padding: 8rem 4rem;
     width: 100%;
     height: auto;
     background-color: var(--orange);
-    padding: 8rem 4rem;
     max-width: 1280px;
     margin: auto;
+    
+   
 
 
 }
@@ -35,16 +38,16 @@
 
 .skills-cover{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
     margin-top: 5rem;
-    gap: 5REM;
-    flex-wrap: wrap;
+    gap:3rem;
+    
    
 }
 
 .s-boxes{
-    padding: 5rem 12rem 5rem 3rem;
+    padding: 5rem 0rem 5rem 3rem;
     background-color: var(--bgColor2);
     display: flex;
     flex-direction: column;
@@ -68,8 +71,6 @@
     display: flex;
     justify-content: left;
     align-items: center;
- 
-    
 }
 
 
@@ -97,7 +98,7 @@
     }
     .skills{
         width: 100%;
-        height: auto;
+        padding: 8rem 4rem;
      }
 }
 
@@ -110,10 +111,16 @@
     .skills{
         width: 100%;
         float: left;
+        padding: 8rem 4rem;
      }
-     .skills-cover {
-        
-        justify-content: space-between;
+     .skills-cover{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin-top: 5rem;
+        gap:3%;
+        flex-wrap: wrap;
+       
     }
 }
 
@@ -125,19 +132,24 @@
     .skills{
        width: 100%;
        float: left;
+       padding: 8rem 4rem;
     }
 
     .s-boxes{
         /* padding: 2rem 5rem 2rem 3rem; */
-        justify-content: space-between;
+        /* justify-content: space-between; */
         
     }
 
-    .skills-cover {
+    .skills-cover{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin-top: 5rem;
+        gap:3%;
+        flex-wrap: wrap;
         
-        justify-content: space-between;
     }
-
     .s-boxes {
         padding: 5rem 10rem 5rem 3rem;
        
@@ -154,10 +166,28 @@
         
     }
 
-    .skills-cover{
+    .skills p {
+      
+        font-size: 1.4rem;
        
+    }
+
+    
+
+    .skills{
+        width: 100%;
+        float: left;
+        padding: 5rem 2rem;
+     }
+
+    .skills-cover{
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr ;
         margin-top: 5rem;
-   
+        margin-bottom: 8rem;
+        gap:3%;
+        flex-wrap: wrap;
        
     }
 
