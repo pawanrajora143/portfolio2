@@ -114,6 +114,7 @@
     justify-content: space-between !important;
     width: 100%;
     height: auto;
+    margin-top: 17px;
    }
 .cover-icon button{
    background-color: transparent;
