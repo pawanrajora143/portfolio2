@@ -3,7 +3,7 @@ import filter from "./../../images/filter.png"
 import contdown from "./../../images/contdown.png"
 import crud from "./../../images/crud.png"
 import bmicalculater from "./../../images/bmi calculater.png"
-import tictactoe from "./../../images/tic tac toe.png"
+import tictactoe from "./../../images/tic1.png"
 import html from "./../../images/html (2).png"
 
 
